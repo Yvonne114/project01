@@ -1,0 +1,142 @@
+/*body {
+  background-color: black;  將背景顏色改為黑色 
+  margin: 0;  保持頁面邊距為0 
+  padding: 0;
+  color: rgb(0, 0, 0);  設置文字顏色為白色以便於在黑色背景上閱讀 
+}*/
+
+.body {
+  
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10%;
+}*/
+
+.bookPage-main-wrapper{
+  border-radius: var(--gap-8);
+  box-sizing: border-box;
+  height: 250px;
+  width: 90%;
+  margin-top: 4%;
+  margin-right: 10%;
+  margin-left: 6%;
+  border: 2px black solid;
+}
+
+.bookForm {
+  font-family: hans;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 垂直方向居中对齐 */
+  width: 80%;
+  max-width: 500%;
+  margin: 20px auto; /* 居中显示 */
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #6bc0aed8;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
+  color: #000;
+  text-shadow: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/*.bookForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  align-items:center;
+  color:black;
+  margin-left: 6%;
+  background-color: rgb(250, 249, 248);
+  margin-top: 2%;
+}*/
+
+.bookForm input {
+  font-family: hans;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 15px;
+  /*margin: 5px;*/
+  margin: 10px auto; /* 居中显示 */
+
+}
+
+/*.bookForm input{
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 5px;
+  background-color:aliceblue;
+  border: "100px solid #DC143C";
+  color:black;
+}*/
+
+/*.bookForm button{
+  width: 96px;
+  height: 40px;
+  margin-top: 20px;
+  background-color:aliceblue;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  font-style:normal;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}*/
+
+.bookForm button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  margin: 15px auto; 
+  background-color: #4caf91; 
+}
+
+.bookForm button:hover {
+  cursor: pointer;
+}
+
+/*.information form {
+  display: flex;
+  flex-direction: column;
+}*/
+
+.headTitle{
+  line-height: 0.7;
+  text-align: center;
+  color: black;
+}
+
+.title{
+  font: 15px;
+  line-height: 1;
+  text-align: center;
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+}   

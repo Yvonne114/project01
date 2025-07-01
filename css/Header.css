@@ -1,0 +1,26 @@
+.header {
+    background-color: #fcca46; /* Warm color #F1C061*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 20px; /* 在 header 下方添加 20 像素的間隔 */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  

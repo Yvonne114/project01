@@ -1,0 +1,118 @@
+.body1 {
+  background-color: #EBDBC8;
+}
+
+.image1 {
+	width: 1500px;
+ 	height: 600px;
+ 
+}
+
+.image-container1 {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  left: 0px;
+}
+
+
+.title1 {
+  position: absolute;
+  top:40px;
+  left: 100px;
+  color: white; /* 设置文本颜色 */
+  font-size: 45px;
+  font-family: hans;
+  text-align: left;
+  /*border: 2px solid white;*/
+  padding: 150px 60px;
+  background-color: rgba(89, 50, 2, 0.4); /* 背景色設置為半透明白色 */
+}
+
+.nav {
+  background-color: #FAA255;
+  width: 100%;
+
+}
+
+.ul {
+  position: flex;
+  list-style-type: none;
+
+  padding: 0;
+  align-items: center;
+  font-family: hans;
+  
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.li {
+  font-family: hans;
+  padding: 0px 24px;
+  align-items: center;
+  float: left;
+
+}
+
+.li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 50px 180px;
+  text-decoration: none;
+
+}
+
+.li a:hover {
+  color: #E4DACE; 
+  font-weight: bold;
+
+  background-color: rgba(242, 98, 46, 0.4);
+}
+
+.text1 {
+  text-align: center;
+  background-color: #a1c181;
+  font-family: hans2;
+  padding: 20px;
+}
+
+.home-button {
+  margin: 0px 50px;
+  padding: 20px 40px;
+  background-color: #EBDBC8;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: hans;
+  font-size: 20px;
+  width: 200px;
+
+}
+
+.home-button:hover {
+  color: black;
+  opacity: 0.7;
+
+}
+
+.home-upbut {
+  align-items: center;
+}
+
+.news {
+  text-align: center;
+  font-family: hans;
+  font-size: 30px;
+}
+
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+}    

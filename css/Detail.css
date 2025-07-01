@@ -1,0 +1,157 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .dormitory-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .dormitory-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: hans;
+  }
+  
+  .dormitory-content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .dormitory-image-carousel {
+    flex: 2;
+    background-color: #e0e0e0;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+  }
+  
+  .image-slide {
+    flex: 1;
+    background-color: #c4c4c4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .dormitory-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dormitory-rating {
+    background-color: #ffd700;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .dormitory-map {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dormitory-description,
+  .dormitory-facilities,
+  .dormitory-reviews {
+    margin-bottom: 20px;
+  }
+  
+  .dormitory-description h2,
+  .dormitory-facilities h2,
+  .dormitory-reviews h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: hanm;
+  }
+
+  .dormitory-description p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: hanm;
+  }
+  
+  .dormitory-facilities ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .review-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  /* 圖片輪播容器 */
+  .modal-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1 1 65%; /* 寬度占中間內容區塊的 65% */
+    height: 400px; /* 固定高度 */
+    overflow: hidden;
+    background-color: #f0f0f0;
+    margin: 0 auto; /* 水平居中 */
+  }
+  
+  /* 圖片樣式 */
+  .carousel-photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* 左右按鈕樣式 */
+  .photo-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 0.8;
+  }
+  
+  .photo-nav:hover {
+    opacity: 1;
+  }
+  
+  /* 左側按鈕 */
+  .photo-nav:first-of-type {
+    left: 5%; /* 相對容器的 5% */
+  }
+  
+  /* 右側按鈕 */
+  .photo-nav:last-of-type {
+    right: 5%; /* 相對容器的 5% */
+  }
+
+  @font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 
+
+@font-face {
+  font-family: hanm;
+  src: url(../public/SourceHanSerifTC-Medium.otf);
+} 
+  

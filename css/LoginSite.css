@@ -1,0 +1,41 @@
+.backc {
+  background-color: white;
+}
+
+.nav1 {
+	
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+ 
+.butt {
+	width: 300px; /* Adjust the width as needed */
+  	height: 300px;
+  background-color: #CBCBCB;
+  color: #484848;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  margin: 30px 50px; /* Space between buttons */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: hans;
+
+}
+
+
+.butt:hover {
+	background-color: #484848;
+  border: 3px solid white;
+  color: white;
+  opacity:0.8;
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 

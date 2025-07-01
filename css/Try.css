@@ -1,0 +1,198 @@
+/* MainPage.css */
+
+/* 頁面背景及基本樣式 */
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* 標題區塊 */
+.title-section {
+  background-color: #FAA255;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.title-section h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* 日期和人數選擇 */
+.options-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.options-section label {
+  margin-right: 10px;
+}
+
+#check-in, #check-out, #people {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 房間資訊區塊 */
+.info-container, .info-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-text, .info-text2 {
+  flex-basis: 60%;
+}
+
+.info-container img, .info-container2 img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-text h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.info-text p, .info-text2 p {
+  font-size: 1em;
+  color: #555;
+}
+
+.button1, .button2 {
+  padding: 10px 20px;
+  background-color: #FAA255;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.button1:hover, .button2:hover {
+  background-color: #e69549;
+}
+
+/* 房屋列表區塊 */
+.houses-section {
+  padding: 20px;
+}
+
+.house-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.house-photo img {
+  border-radius: 8px;
+}
+
+.house-info h4 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.house-info p {
+  font-size: 1em;
+  color: #555;
+}
+
+.house-price p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.house-price button {
+  padding: 10px;
+  background-color: #FAA255;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.house-price button:hover {
+  background-color: #e69549;
+}
+
+/* 分頁控制 */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #FAA255;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-controls button:hover {
+  background-color: #e69549;
+}
+
+.pagination-controls select {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+/* 訂房資訊區塊 */
+.booking-info {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info h2 {
+  margin-bottom: 20px;
+}
+
+.booking-info p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #FAA255;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #e69549;
+}

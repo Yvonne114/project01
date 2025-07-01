@@ -1,0 +1,130 @@
+/* 主容器樣式 */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'hans2';
+    color: #333333;
+    line-height: 1.6;
+  align-items: center;
+
+}
+
+/* 標題樣式 */
+/*.about-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff5722;
+    margin-bottom: 20px;
+}*/
+
+.about-title {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #cb49ff;
+    text-shadow: 1px 1px 2px #ccc;
+    background: linear-gradient(to right, #cb49ff, #ba0bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 圖片樣式 */
+.about-image {
+    width: 25%;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* 內容區塊樣式 */
+.about-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-image: url('../images/border2.png') 30 round;
+    border-width: 10px;
+    border-style: solid;
+}
+
+/* 小圖示點綴 */
+.about-content::before {
+    content: '🏃‍♂️';
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 3rem;
+    color: rgba(255, 87, 34, 0.3);
+    transform: rotate(-15deg);
+}
+
+.about-content::after {
+    content: '🏠';
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    font-size: 3rem;
+    color: rgba(255, 87, 34, 0.3);
+    transform: rotate(15deg);
+}
+
+/* 動態效果 */
+.about-content:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+/* 左側漸層條紋 */
+.about-content::marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(180deg, #ff5722, #ff9100);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+/* 列表樣式 */
+.about-list {
+    list-style: disc inside;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+/* 超連結樣式 */
+.about-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
+
+/* Instagram 圖標樣式 */
+.instagram-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+}
+
+@font-face {
+  font-family: hans2;
+  src: url(../public/SourceHanSerifTC-Medium.otf);
+} 

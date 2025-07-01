@@ -1,0 +1,343 @@
+.back-news {
+  background-color: #EBDBC8;
+  color: black;
+}
+
+.back2 {
+  background-color: #FEFEFC;
+  color: black;
+}
+
+.all {
+  font-family: hans2;
+  color: black;
+  padding: 20px;
+}
+
+.title1
+{
+  text-align: center; /* 标题居中对齐 */
+  color: black;
+  margin-bottom: 20px; 
+  font-size: 30px;/* 标题下方的间距 */
+  font-family: hans;
+}
+.title1
+{
+  text-align: left; 
+  font-weight: bold; /* 粗体显示 */
+  margin-bottom: 20px; 
+  font-size: 30px;/* 标题下方的间距 */
+}
+/* 包含文本的 div 样式 */
+.content 
+{
+  text-align: center; /* 文本左对齐 */
+  margin: 20px 100px; /* 与其他元素的间距 */
+  font-size: 20px;
+}
+
+/* 标题样式 */
+
+.topic 
+{
+  text-align:left; /* 标题居中对齐 */
+  font-weight: bold; /* 粗体显示 */
+  margin: 20px 100px; 
+  font-size: 25px;/* 标题下方的间距 */
+}
+.top-image 
+{
+  width:  300px; /* 使图片宽度填满页面 */
+  height: auto; /* 自动调整高度，保持图片比例 */
+  display: block; /* 去掉底部的空白 */
+  margin-bottom: 20px;
+  margin: 0 auto; /* 图片下方的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.b-image, .c-image {
+  width: 300px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+  margin-left: 20px;
+}
+
+.b-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+  margin-left: 20px;
+}
+
+.c-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+
+}
+
+.d-image, .e-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+  margin-left: 20px;
+}
+
+.d-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+  margin-left: 20px;
+}
+
+.e-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.f-image 
+{
+  width:  300px; /* 使图片宽度填满页面 */
+  height: auto; /* 自动调整高度，保持图片比例 */
+  display: block; /* 去掉底部的空白 */
+  margin-bottom: 20px;
+  margin: 0 auto; /* 图片下方的间距 */
+   margin-left: 20px;
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.g-image, .h-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+   margin-left: 20px;
+}
+
+.g-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+   margin-left: 20px;
+}
+
+.h-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.i-image, .j-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+   margin-left: 20px;
+}
+
+.i-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+}
+
+.j-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.k-image, .l-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+}
+
+.k-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+}
+
+.l-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.m-image, .n-image ,.o-image,.p-image{
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+}
+
+.m-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+}
+
+.m-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.o-image {
+  order: 3; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.p-image {
+  order: 4; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.q-image, .r-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+}
+
+.q-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+}
+
+.r-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.image-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.s-image, .t-image {
+  width: 300px;
+  height: 200px; /* 设置图片宽度 */
+  height: auto; /* 自动调整高度，保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+}
+
+.s-image {
+  order: 1; /* 设置b-image在Flex容器中的顺序为1（默认是0） */
+}
+
+.t-image {
+  order: 2; /* 设置c-image在Flex容器中的顺序为2 */
+  margin-left: 20px; /* 设置c-image和b-image之间的间距 */
+}
+.u-image 
+{
+  width:  300px; /* 使图片宽度填满页面 */
+  height: auto; /* 自动调整高度，保持图片比例 */
+  display: block; /* 去掉底部的空白 */
+  margin-bottom: 20px;
+  margin: 0 auto; /* 图片下方的间距 */
+}
+.v-image 
+{
+  width:  500px; /* 使图片宽度填满页面 */
+  height: auto; /* 自动调整高度，保持图片比例 */
+  display: block; /* 去掉底部的空白 */
+  margin-bottom: 20px;
+  margin: 0 auto; /* 图片下方的间距 */
+}
+.w-image 
+{
+  width:  200px; /* 使图片宽度填满页面 */
+  height: auto; /* 自动调整高度，保持图片比例 */
+  display: block; /* 去掉底部的空白 */
+  margin-bottom: 20px;
+  margin: 0 auto; /* 图片下方的间距 */
+}
+.x-image 
+{
+  width:  30px; /* 使图片宽度填满页面 */
+}
+.z-image {
+  max-width: 100%; /* 確保圖片不超出容器寬度 */
+  max-height: 100%; /* 確保圖片不超出容器高度 */
+  object-fit: contain; /* 保持圖片比例 */
+}
+.y-image-container {
+  display: flex; /* 使用 Flexbox */
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+  height: 2000px; /* 父容器高度設置為視窗高度 */
+  margin: 0; /* 去掉外距 */
+  padding: 0; /* 去掉內距 */
+}
+.y-image {
+  max-width: 100%; /* 確保圖片不超出容器寬度 */
+  max-height: 100%; /* 確保圖片不超出容器高度 */
+  object-fit: contain; /* 保持圖片比例 */
+}
+
+.af-image-container {
+  display: flex; /* 使用 Flexbox */
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+  height: 100vh; /* 父容器高度設置為視窗高度 */
+  margin: 0; /* 去掉外距 */
+  padding: 0; /* 去掉內距 */
+}
+.af-image {
+  max-width: 100%; /* 確保圖片不超出容器寬度 */
+  max-height: 100%; /* 確保圖片不超出容器高度 */
+  object-fit: contain; /* 保持圖片比例 */
+}
+
+.buttons {
+  margin: 10px;
+  padding: 20px 40px;
+  background-color: #CCBE97;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: hans;
+  font-size: 20px;
+
+}
+
+.buttons:hover {
+  background-color: #B1A586;
+  color: black;
+}
+
+.news {
+  text-align: center;
+  align-items: center;
+  font-family: hans;
+  font-size: 30px;
+  color: black;
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 
+
+@font-face {
+  font-family: hans2;
+  src: url(../public/SourceHanSerifTC-Medium.otf);
+} 

@@ -1,0 +1,102 @@
+
+
+.nav {
+
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    /*position: fixed; /* 固定在螢幕頂部 */
+    /*z-index: 1000; /* 確保導航欄在其他元素之上 */
+
+
+
+}
+
+.ullayout {
+    display: flex;
+    justify-content: space-between; /* 將兩側項目分開 */
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0px;
+  overflow: hidden;
+  align-items: center;
+  font-family: hans;
+    background-color: #F9DCA7;
+    backdrop-filter: blur(10px); /* 增加模糊效果 */
+  
+
+}
+
+.lila {
+  display: flex;
+  float: right;
+  padding: 0px 10px;
+
+}
+
+.lila a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.lila a:hover {
+  opacity: 0.5;
+}
+
+.feather {
+
+  stroke: #000;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.feather1 {
+
+  stroke: #000;
+
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+}
+
+.home-icon {
+  width: 70px;
+  height: 70px;
+  margin-left: 60px; /* 往右移動 */
+  margin-top: 15px; 
+}
+
+.marathon-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 0; /* 調整行距 */
+}
+
+.chinese {
+  font-size: 44px; /* 根據需要調整文字大小 */
+  color: #000; /* 設置文字顏色 */
+  margin-top: 25px;
+  letter-spacing: 2px; /* 調整中文文字間距 */
+
+}
+
+.english {
+  font-size: 17px; /* 根據需要調整文字大小 */
+  color: #000; /* 設置文字顏色 */
+  margin-top: 30px;
+}
+
+.home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* 移除下划線 */
+  gap: 15px;
+}
+

@@ -1,0 +1,118 @@
+/* 背景設計 */
+.back1 { 
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    font-family: 'hans2';
+    color: #FFFFFF;
+    background-color: white;
+}
+
+/* 頂部圖片樣式 */
+.top-image {
+    width: 40%;
+    max-width: 1200px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.back1 .title {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #517fff;
+    text-shadow: 1px 1px 2px #ccc;
+    background: linear-gradient(to right, #517fff, #225dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 內容區塊樣式 */
+.content1 {
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #e0e0e0; /* 淡邊框讓區塊更有層次感 */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.0rem;
+    line-height: 1.9;
+    margin-bottom: 30px;
+    color: #333; /* 深色文字，對比更清晰 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加滑動與陰影變化 */
+    backdrop-filter: blur(5px); /* 模糊背景元素，提升質感 */
+}
+
+/* 當滑鼠移上時，增加立體感 */
+.content1:hover {
+    transform: translateY(-10px); /* 輕微向上移動 */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+    border: 1px solid #d4a5a5; /* 添加微妙的邊框色變化 */
+    background: linear-gradient(to bottom right, #ffffff, #f5e6e6); /* 偏粉漸層顯得優雅 */
+}
+
+/* 強調文字效果 */
+.content1 strong {
+    color: #ff6f61; /* 使用品牌顏色或強調色 */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 連結設計 */
+.a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 動畫效果 */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
+
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 
+
+@font-face {
+  font-family: hans2;
+  src: url(../public/SourceHanSerifTC-Medium.otf);
+} 
+
+  

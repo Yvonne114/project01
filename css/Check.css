@@ -1,0 +1,56 @@
+
+.body2 {
+    background-color: #EBDBC8;
+    overflow-y: auto;
+    margin:20px;
+}
+.text2 {
+  position: relative;
+  color: black; /* 设置文本颜色 */
+  font-size: 30px;
+  font-family: hans;
+  margin-bottom: 20px;
+  background-color: #EBDBC8;
+  text-align: center;
+  
+}
+.styled-table {
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+  background-color: #484848;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  transition: background-color 0.3s;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+
+
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+  
+}

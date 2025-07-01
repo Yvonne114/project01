@@ -1,0 +1,54 @@
+/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+  .ApplySuccess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .applyResult{
+    border-radius: var(--gap-8);
+    box-sizing: border-box;
+    height: 160px;
+    width: 90%;
+    background-color:aliceblue;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 6%;
+    border: 2px black solid;
+    text-align: center;
+  }
+
+.ShowInformation{
+    border-radius: var(--gap-8);
+    box-sizing: border-box;
+    height: 300px;
+    width: 90%;
+    background-color:aliceblue;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 6%;
+    border: 2px black solid;
+    text-align: center;
+}
+  
+  .EntryInform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    align-items:center;
+    color:black;
+    margin-left: 6%;
+    background-color: wheat;
+    margin-top: 2%;
+  }
+
+  

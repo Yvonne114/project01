@@ -1,0 +1,156 @@
+.backgroundc {
+    background-color: white;
+}
+.main-container {
+    font-family: hans2;
+    line-height: 1.8;
+    padding: 20px;
+    
+    background: linear-gradient(to bottom, #f9f9f9, #eff5ff);
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+    background-size: 120px 120px;
+}
+
+.section {
+    margin-bottom: 40px;
+    animation: slideIn 0.8s ease;
+}
+
+.title {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #47a34a;
+    text-shadow: 1px 1px 2px #ccc;
+    background: linear-gradient(to right, #47a34a, #2c8f33);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1em;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.subtitle1 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.subtitle::before {
+    content: url('https://img.icons8.com/ios-filled/20/47a34a/leaf.png');
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/*.text-content, .photo-content, .point {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}*/
+
+.text-content, .photo-content, .point {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #47a34a;
+}
+
+.photo-content {
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    font-size: 0.95em;
+    margin-top: 10px;
+    color: #666;
+}
+
+/*card*/
+.card {
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.control-box {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.control-box.yellow {
+    background: linear-gradient(to right, #fff8dc, #fff3b5);
+    background-image: url('https://img.icons8.com/ios/50/ffd700/sun.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 10px center;
+    border-left: 5px solid #ffd700;
+    padding-left: 50px;
+}
+
+.control-box.blue {
+    background-color: #eef9ff;/*#e6f6ff*/
+    border-left: 5px solid #537d99;
+}
+
+.control-box.pink {
+    background-color: #ffe9f1;
+    border-left: 5px solid #ff0055;/*#ff6666*/
+}
+
+.a {
+    color: #1976d2;
+    text-decoration: underline;
+}
+
+.a:hover {
+    color: #0b7dda;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 
+
+@font-face {
+  font-family: hans2;
+  src: url(../public/SourceHanSerifTC-Medium.otf);
+} 

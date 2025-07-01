@@ -1,0 +1,7 @@
+.footer {
+    background-color: #a1c181; /* Warm color #faefb1*/
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px; /* 在 footer 上方添加 20 像素的間隔 */
+  }
+  

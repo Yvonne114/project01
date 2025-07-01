@@ -1,0 +1,33 @@
+/* bo.css */
+
+/* 所有图片的共同样式 */
+img {
+  width: 300px; /* 固定宽度 */
+  height: 200px; /* 固定高度 */
+  object-fit: cover; /* 确保图片填满指定区域并保持比例 */
+  margin-bottom: 20px; /* 图片下方的间距 */
+}
+
+/* 顶部图片样式 */
+.top-image {
+  width: 100%; /* 顶部图片宽度占满容器宽度 */
+  max-width: 600px; /* 设置最大宽度为600px */
+  height: auto; /* 高度自动调整以保持比例 */
+  display: block; /* 使图片成为块级元素 */
+  margin: 0 auto 20px; /* 图片水平居中显示，底部有20px的间距 */
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* 允许图片换行 */
+  gap: 20px; /* 图片之间的间距 */
+  justify-content: center; /* 图片居中对齐 */
+}
+
+/* 设置页面整体字体为白色 */
+
+/* 如果你有特定的部分需要单独设置字体颜色为白色，可以使用*/
+
+
+
+

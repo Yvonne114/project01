@@ -1,0 +1,94 @@
+.body {
+  background-color: #FAA255;
+}
+
+.title2 {
+  padding:50px;
+  top:40px;
+  font-size: 45px;
+  font-family: hans;
+  text-align: center;
+  color: black;
+
+}
+
+.info-container {
+  display: flex; /* 使用 Flexbox 來排版 */
+  align-items: center; /* 垂直居中對齊 */
+  padding: 20px; /* 內邊距 */
+  background-color: #FAA255; /* 背景顏色，根據需要調整 */
+  border: 1px solid #ddd; /* 邊框樣式，根據需要調整 */
+  margin: 0px 50px;
+}
+.info-container2 {
+  display: flex; /* 使用 Flexbox 來排版 */
+  align-items: center; /* 垂直居中對齊 */
+  padding: 20px; /* 內邊距 */
+  background-color: #FAA255; /* 背景顏色，根據需要調整 */
+  border: 1px solid #ddd; /* 邊框樣式，根據需要調整 */
+  margin: 0px 50px;
+}
+
+.image2 {
+  width: 40%; /* 圖片占據容器的 40% 寬度 */
+  height: auto; /* 高度自動調整，保持圖片比例 */
+  margin-right: 20px; /* 右邊距離 */
+}
+.image3 {
+  width: 40%; /* 圖片占據容器的 40% 寬度 */
+  height: auto; /* 高度自動調整，保持圖片比例 */
+  margin-left: 20px; /* 右邊距離 */
+}
+
+.info-text {
+  width: 60%; /* 文字部分占據容器的 60% 寬度 */
+  font-family: hans;
+}
+.info-text2 {
+  width: 60%; /* 文字部分占據容器的 60% 寬度 */
+  font-family: hans;
+}
+
+.button1 {
+  background-color: #FAA255; /* 按钮背景色 */
+  color: #FFFFFF; /* 按钮文字颜色 */
+  border: 1px solid white;
+  float: right;
+  bottom: 0;
+  font-family: hans;
+
+}
+.button2 {
+  background-color: #FAA255; /* 按钮背景色 */
+  color: #FFFFFF; /* 按钮文字颜色 */
+  border: 1px solid white;
+  float: left;
+  font-family: hans;
+
+}
+
+.hotels-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.hotels-container table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.hotels-container th, .hotels-container td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.hotels-container img {
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: hans;
+  src: url(../public/SourceHanSerifCN-Heavy.otf);
+} 
